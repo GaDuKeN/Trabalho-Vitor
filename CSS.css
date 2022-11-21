@@ -1,0 +1,109 @@
+body {
+    color: rgb(2, 2, 2);
+      background: linear-gradient(to right, rgb(106, 180, 170), rgb(74, 89, 141), rgb(202, 88, 197) );
+      background-size: 500% 100%;
+      animation-name: degrade;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;}
+    
+    
+      @keyframes degrade{
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+        
+      }
+
+hr {
+    border-color: black;
+    
+}
+div {
+    display: ;
+    width: 30%;
+    background-color: rgb(226, 226, 216);
+    display: inline-block;
+
+}
+
+form {
+    border-style: solid;
+}
+
+.foto {
+    text-align: end;
+    border-radius: 60%;
+    width: 5%;
+    position: relative;
+    left: 2%;
+
+}
+
+strong {
+
+    color: rgb(10, 31, 219);
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+.asd {
+    width: 15%;
+    text-align: left;
+    background: linear-gradient(to right, rgb(106, 180, 170), rgb(74, 89, 141), rgb(202, 88, 197) );
+      background-size: 500% 100%;
+      animation-name: degrade;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;}
+    
+    
+      @keyframes degrade{
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+        
+}
+
+.asdf {
+    width: 80%;
+    text-align: start;
+    background: linear-gradient(to right, rgb(106, 180, 170), rgb(74, 89, 141), rgb(202, 88, 197) );
+      background-size: 500% 100%;
+      animation-name: degrade;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;}
+    
+    
+      @keyframes degrade{
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+        
+}
+
+li{
+    list-style: none;    
+}
+
+fieldset{
+
+    border-color: black;
+}
+.foto{
+    
+}
